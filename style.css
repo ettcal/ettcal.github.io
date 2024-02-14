@@ -302,7 +302,7 @@ html {
   
   .w-webflow-badge, .w-webflow-badge * {
     z-index: auto;
-    visibility: visible;
+    visibility: hidden;
     box-sizing: border-box;
     width: auto;
     height: auto;
@@ -381,7 +381,7 @@ html {
   }
   
   .w-webflow-badge > img {
-    visibility: visible !important;
+    visibility: hidden !important;
     opacity: 1 !important;
     vertical-align: middle !important;
     display: inline-block !important;
